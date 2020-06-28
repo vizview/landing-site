@@ -1,0 +1,21 @@
+.slogan {
+   
+    text-align: center;
+    
+}
+
+.slogan h1 {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 64px;
+    color: #3E3E3E;
+    padding-top: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+    .slogan h1 {
+        font-size: 40px;
+    }
+    
+}

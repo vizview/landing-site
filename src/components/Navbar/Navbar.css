@@ -1,10 +1,9 @@
-body {
-    line-height: 1 !important;
-}
+
 .navbar {
    border-bottom: 1px solid #C4C4C4; 
    height: 80px;
    font-family: 'Raleway', sans-serif;
+   z-index: 999;
 }
 
 
@@ -32,11 +31,13 @@ body {
     color: #707070 ;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-nav .inactive:hover {
     color: #E84D28 !important;
     text-decoration: underline;
 }
+
+

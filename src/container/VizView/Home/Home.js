@@ -1,9 +1,21 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
+
+import Slogan from "./Slogan/Slogan.js"
+import Featured from "./Featured/Featured.js"
+import WhatWeDo from "./WhatWeDo/WhatWeDo.js"
 const home = () => {
     return (
-        <div>
-            <h1>Welcome to VizView</h1>
+        <div className="home">
+            <div className="section">
+                <Slogan />
+            </div>
+            <div className="section">
+                <Featured />
+            </div>
+            <div className="section">
+                <WhatWeDo />
+            </div>
         </div>
 
     )

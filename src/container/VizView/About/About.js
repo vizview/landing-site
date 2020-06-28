@@ -1,9 +1,11 @@
 import React from 'react';
 import './About.css'
+
+
 const about = () => {
     return (
         <div>
-            <h1>About Us</h1>
+            <h1>About us</h1>
         </div>
 
     )

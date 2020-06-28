@@ -36,6 +36,14 @@ const navbar = () => {
             >
               About
             </NavLink>
+            <NavLink
+              className="inactive"
+              to="/contact"
+              exact
+              activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
+            >
+              Contact
+            </NavLink>
           </div>
         </div>
       </nav>
