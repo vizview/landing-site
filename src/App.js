@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 /* Components */
-import VizView from './container/VizView/VizView.js'
-
+import VizView from "./container/VizView/VizView.js";
 
 class App extends Component {
   render() {
@@ -18,7 +16,6 @@ class App extends Component {
           <VizView />
         </div>
       </BrowserRouter>
-
     );
   }
 }

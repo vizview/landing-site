@@ -5,7 +5,6 @@
 }
 
 .slogan h1 {
-  font-family: var(--title-font-family);
   max-width: 1000px;
   margin: 0 auto;
   font-size: var(--title-font-size);

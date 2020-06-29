@@ -8,7 +8,7 @@
   line-height: 60px;
   background-color: var(--primary-color);
   color: var(--white);
-  font-family: "Roboto", serif;
+  font-family: var(--body-font-family);
   font-size: 18px;
 }
 
