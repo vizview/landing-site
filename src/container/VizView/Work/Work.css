@@ -18,8 +18,7 @@ h1 {
 
 .project {
   position: relative;
-  height: 400px;
-  margin-top: 120px;
+  margin-top: 12vh;
 }
 
 .proj-img {
@@ -39,8 +38,8 @@ h1 {
 
 .project-reverse {
   position: relative;
-  height: 400px;
-  margin-top: 120px;
+  min-height: 400px;
+  margin-top: 12vh;
 }
 
 .proj-img-reverse {
@@ -77,8 +76,6 @@ h1 {
   .project,
   .project-reverse {
     position: inherit;
-    margin-top: 120px;
-    min-height: 500px;
   }
 
   .proj-img,
@@ -86,6 +83,7 @@ h1 {
     position: inherit;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
   .proj-intro,
