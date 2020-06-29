@@ -2,9 +2,9 @@
     height: calc(100vh - 80px);
 }
 
-/* .home .section {
-    height: 100vh;
-} */
+.home .section {
+    min-height: 100vh;
+}
 
 .home {
     margin-left: 5vw;
