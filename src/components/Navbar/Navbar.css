@@ -1,43 +1,60 @@
+@import url("../../Variables.css");
 
 .navbar {
-   border-bottom: 1px solid #C4C4C4; 
-   height: 80px;
-   font-family: 'Raleway', sans-serif;
-   z-index: 999;
+  border-bottom: 1px solid #c4c4c4;
+  height: 80px;
+  font-family: "Raleway", sans-serif;
+  z-index: 999;
 }
-
-
 
 .navbar-light .navbar-brand {
-    color: #E84D28;
-    font-size: 32px;
-    font-weight: 600;
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.navbar-light .navbar-brand:hover{
-    color: #E84D28;
+.navbar-light .navbar-brand:hover {
+  color: var(--primary-color);
 }
 
 .navbar-light .navbar-brand:visited {
-    color: #E84D28;
+  color: var(--primary-color);
 }
 
-
 .navbar-nav {
-   flex-direction: row !important;
+  flex-direction: row !important;
 }
 
 .navbar-nav .inactive {
-    color: #707070 ;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: inline-block;
+  color: var(--medium-dark-grey);
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
-.navbar-nav .inactive:hover {
-    color: #E84D28 !important;
-    text-decoration: underline;
+.navbar-nav .inactive:hover,
+.navbar-nav .active {
+  color: var(--primary-color) !important;
+  border-bottom: var(--primary-color) 0.2rem solid;
 }
 
+.navbar-nav .active {
+  color: var(--primary-color);
+  border-bottom: var(--primary-color) 0.2rem solid;
+}
 
+/*animation */
+/* .navbar-nav .inactive:hover:after {
+  transform: scaleX(1);
+}
+
+.navbar-nav .inactive:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--primary-color);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+} */

@@ -1,25 +1,25 @@
+@import url("../../Variables.css");
+
 .footer {
-    width: 100%;
-    height: 150px;
-    line-height: 60px; 
-    background-color: #E84D28;
-    color: white;
-    font-family: 'Roboto', serif;
-    font-size: 18px;
-    
-  }
+  width: 100%;
+  height: 150px;
+  line-height: 60px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-family: "Roboto", serif;
+  font-size: 18px;
+}
 
- .footer .wrapper {
-    margin: 20px auto;
-    text-align: center;
- }
+.footer .wrapper {
+  margin: 20px auto;
+  text-align: center;
+}
 
- .wrapper div {
-   height: 40px;
- }
+.wrapper div {
+  height: 40px;
+}
 
- .pages a {
-   color: white;
-   font-weight: 400;
-  
- }
+.pages a {
+  color: var(--white);
+  font-weight: 400;
+}

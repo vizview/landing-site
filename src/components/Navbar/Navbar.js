@@ -16,7 +16,7 @@ const navbar = () => {
               className="inactive"
               to="/"
               exact
-              activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
+              // activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
             >
               Home
             </NavLink>
@@ -24,7 +24,7 @@ const navbar = () => {
               className="inactive"
               to="/work"
               exact
-              activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
+              // activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
             >
               Work
             </NavLink>
@@ -32,7 +32,7 @@ const navbar = () => {
               className="inactive"
               to="/about"
               exact
-              activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
+              // activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
             >
               About
             </NavLink>
@@ -40,7 +40,7 @@ const navbar = () => {
               className="inactive"
               to="/contact"
               exact
-              activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
+              // activeStyle={{ color: "#E84D28", textDecoration: "underline" }}
             >
               Contact
             </NavLink>
