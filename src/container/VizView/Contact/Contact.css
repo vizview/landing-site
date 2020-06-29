@@ -1,24 +1,25 @@
 .contact {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 h2 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     color: #E84D28;
     margin-bottom: 1em;
     margin-top: 1em;
 }
 
 .contact-intro {
-    width: 60%;
+    width: 50%;
     min-width: 350px;
     margin: 0 auto;
     font-family: 'Roboto', serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3E3E3E;
 }
 
 .contact-intro > a {
@@ -26,8 +27,8 @@ h2 {
 }
 
 .contact-info #submit {
-    width: 280px;
-    height: 40px;
+    width: 200px;
+    height: 56px;
     background-color: #E84D28;
     color: white;
 }

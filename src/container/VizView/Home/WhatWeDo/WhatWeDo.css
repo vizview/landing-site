@@ -1,8 +1,8 @@
 
-.whatwedo p{
-    max-width: 590px;
+.whatwedo>p{
+    max-width: 720px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .works-wrapper {
@@ -22,7 +22,7 @@
     margin-top: 1em;
 }
 .work p {
-    max-width: 340px;
+    max-width: 360px;
     margin: auto;
 }
 
@@ -46,6 +46,10 @@
 
     .works-wrapper .work {
         width: 33.3%;
+    }
+
+    .whatwedo>p {
+        width: 80%
     }
 
 }
