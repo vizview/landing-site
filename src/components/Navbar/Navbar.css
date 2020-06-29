@@ -1,9 +1,9 @@
 @import url("../../Variables.css");
 
 .navbar {
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid var("--medium-light-grey");
   height: 80px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--h2-font-family);
   z-index: 999;
 }
 
@@ -28,7 +28,7 @@
 .navbar-nav .inactive {
   display: inline-block;
   color: var(--medium-dark-grey);
-  font-size: 20px;
+  font-size: var(--body-sm-font-size);
   font-weight: 600;
   margin-left: 10px;
   margin-right: 10px;

@@ -1,24 +1,27 @@
+@import url("../../../Variables.css");
+
 .contact {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 h2 {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 36px;
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
   color: var(--primary-color);
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
 .contact-intro {
-  width: 60%;
+  width: 50%;
   min-width: 350px;
   margin: 0 auto;
   font-family: "Roboto", serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: var(--body-sm-font-size);
+  line-height: 26px;
+  color: var(--dark-grey);
 }
 
 .contact-intro > a {
@@ -26,10 +29,10 @@ h2 {
 }
 
 .contact-info #submit {
-  width: 280px;
-  height: 40px;
+  width: 200px;
+  height: 56px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
 }
 
 .contact-info {
@@ -43,7 +46,7 @@ h2 {
   display: block;
   margin: 1.5em auto;
   padding: 10px;
-  border: #c4c4c4 solid 1px;
+  border: var(--medium-light-grey) solid 1px;
   border-radius: 4px;
 }
 

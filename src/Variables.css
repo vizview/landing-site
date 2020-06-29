@@ -1,10 +1,10 @@
 :root {
-  /* colors */
+  /* Colors */
   --primary-color: #e84d28;
   --secondary-color-1: #a0c1b8;
-  --secondary-color-2: #a0c1b8;
-  --secondary-color-3: #a0c1b8;
-  --secondary-color-4: #a0c1b8;
+  --secondary-color-2: #ffcb74;
+  --secondary-color-3: #ea907a;
+  --secondary-color-4: #709fb0;
 
   --white: white;
   --dark-grey: #3e3e3e;
@@ -13,4 +13,18 @@
   --light-grey: #d6d6d6;
 
   /* Text */
+  --title-font-family: "Raleway", sans-serif;
+  --title-font-size: 64px;
+  --title-font-weight: 600;
+
+  --h2-font-family: "Raleway", sans-serif;
+  --h2-font-size: 48px;
+  --h2-font-weight: 600;
+
+  --body-font-family: "Roboto", sans-serif;
+  --body-lg-font-size: 24px;
+  --body-lg-line-height: 1.2;
+
+  --body-sm-font-size: 20px;
+  --body-sm-line-height: 1.3;
 }
