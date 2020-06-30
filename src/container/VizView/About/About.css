@@ -1,0 +1,9 @@
+@import url("../../../Variables.css");
+
+p {
+  color: var(--dark-grey);
+}
+
+h1 {
+    color: var(--primary-color)
+}

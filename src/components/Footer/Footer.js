@@ -16,10 +16,14 @@ const footer = () => {
           <a href="/about">Contact</a>
         </div>
 
+
+
+
         <div className="copyright">
           <small>Copyright &copy; 2020 VizView - All Rights Reserved.</small>
         </div>
       </div>
+
     </footer>
   );
 };
