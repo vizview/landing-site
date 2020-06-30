@@ -1,19 +1,15 @@
 @import url("../../../Variables.css");
 
-p {
-  color: var(--dark-grey);
-}
-
-h1 {
+.project h1,
+.project-reverse h1 {
   color: var(--dark-grey);
   font-size: var(--h2-font-size);
   font-weight: var(--h2-font-weight);
 }
 
 .section {
-  max-width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .project {
@@ -73,6 +69,10 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+  .project h1,
+  .project-reverse h1 {
+    font-size: var(--h2-sm-screen-font-size);
+  }
   .project,
   .project-reverse {
     position: inherit;

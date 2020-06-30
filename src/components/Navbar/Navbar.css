@@ -38,16 +38,11 @@
 .navbar-nav .inactive:hover,
 .navbar-nav .active {
   color: var(--primary-color) !important;
-  border-bottom: var(--primary-color) 0.2rem solid;
-}
-
-.navbar-nav .active {
-  color: var(--primary-color);
-  border-bottom: var(--primary-color) 0.2rem solid;
+  /* border-bottom: var(--primary-color) 0.2rem solid; */
 }
 
 /*animation */
-/* .navbar-nav .inactive:hover:after {
+.navbar-nav .inactive:hover:after {
   transform: scaleX(1);
 }
 
@@ -57,4 +52,4 @@
   border-bottom: solid 3px var(--primary-color);
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
-} */
+}

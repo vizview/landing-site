@@ -1,0 +1,75 @@
+@import url("../../../Variables.css");
+
+.story h1 {
+  color: var(--primary-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.story {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.role-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.person-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.role-intro .end {
+  justify-content: end;
+}
+
+.secondary-h2 {
+  text-align: left;
+  font-family: var(--body-font-family);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.secondary-h2 span {
+  color: black;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+.icon img {
+  height: 32px;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    margin-bottom: 20px;
+  }
+
+  .justify-content-end {
+    justify-self: start;
+  }
+}
