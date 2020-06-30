@@ -4,6 +4,7 @@ import "./Home.css";
 import Slogan from "./Slogan/Slogan.js";
 import Featured from "./Featured/Featured.js";
 import WhatWeDo from "./WhatWeDo/WhatWeDo.js";
+import Team from "./Team/Team.js";
 const home = () => {
   return (
     <div className="home">
@@ -15,6 +16,9 @@ const home = () => {
       </div>
       <div className="section">
         <WhatWeDo />
+      </div>
+      <div className="section">
+        <Team />
       </div>
     </div>
   );
