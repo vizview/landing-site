@@ -1,28 +1,51 @@
 @import url("../../../../Variables.css");
 
+.project-intro {
+  max-width: 384px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 80px;
+}
+.project-intro img {
+  max-width: 100%;
+  display: block;
+}
+
+.project-intro h3 {
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  font-family: var(--body-font-family);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.project-intro p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-sm-font-size);
+  color: var(--medium-dark-grey);
+  line-height: var(--body-sm-line-height);
+}
 .subscribe p {
   color: var(--medium-dark-grey);
   text-align: center;
 }
 
 .sub-input {
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
-#contact-email {
+#contact-email-sm {
   display: block;
-  max-width: 368px;
-
-  padding: 14px 32px 14px 32px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 14px 24px 14px 24px;
   line-height: var(--body-lg-line-height);
   color: var(--medium-dark-grey);
   border: 2px solid var(--medium-light-grey);
   border-radius: 4px;
-
-  margin: 0 auto;
 }
 
-#subsribe {
+#subsribe-sm {
   width: 200px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -35,18 +58,31 @@
   margin: 20px auto;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 600px) {
   .sub-input {
-    max-width: 600px;
-    margin: 1.5em auto;
+    width: 600px;
+    margin: 20px auto;
   }
 
-  #contact-email {
+  #contact-email-sm {
+    width: 368px;
     margin-right: 20px;
     float: left;
   }
 
-  #subscribe {
+  #subscribe-sm {
+    width: 200px;
     float: right;
   }
+  .projects-sum {
+    display: flex;
+  }
+
+
+
 }
+/* @media only screen and (min-width: 1200px) {
+   
+    
+}
+ */

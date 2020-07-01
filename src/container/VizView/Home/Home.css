@@ -7,6 +7,14 @@
 }
 
 .home {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .home {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
