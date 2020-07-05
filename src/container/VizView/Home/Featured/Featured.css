@@ -34,7 +34,7 @@
   margin-top: 20px;
 }
 
-#contact-email-sm {
+#mce-EMAIL {
   display: block;
   width: 300px;
   margin: 0 auto;
@@ -45,7 +45,7 @@
   border-radius: 4px;
 }
 
-#subsribe-sm {
+#mc-embedded-subscribe {
   width: 200px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -64,22 +64,15 @@
     margin: 20px auto;
   }
 
-  #contact-email-sm {
+  #mce-EMAIL {
     width: 368px;
     margin-right: 20px;
     float: left;
   }
 
-  #subscribe-sm {
-    width: 200px;
-    float: right;
-  }
   .projects-sum {
     display: flex;
   }
-
-
-
 }
 /* @media only screen and (min-width: 1200px) {
    
