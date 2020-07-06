@@ -25,10 +25,74 @@
   margin: auto;
 }
 
-.work-background {
+#hightlight-1 {
   width: 150px;
   height: 24px;
   margin: -22px auto 10px auto;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color-1) 50%,
+    transparent 50%
+  );
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all 0.5s ease-out;
+}
+
+#hightlight-2 {
+  width: 150px;
+  height: 24px;
+  margin: -22px auto 10px auto;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color-2) 50%,
+    transparent 50%
+  );
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all 0.5s ease-out;
+}
+
+#hightlight-3 {
+  width: 150px;
+  height: 24px;
+  margin: -22px auto 10px auto;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color-3) 50%,
+    transparent 50%
+  );
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all 0.5s ease-out;
+}
+
+/* .work-background {
+  width: 150px;
+  height: 24px;
+  margin: -22px auto 10px auto;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color-1) 50%,
+    transparent 50%
+  );
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all 0.5s ease-out;
+} */
+
+.work-background:hover {
+  background-position: left bottom;
+}
+
+#hightlight-1.showHighlight {
+  background-position: left bottom;
+}
+#hightlight-2.showHighlight {
+  background-position: left bottom;
+}
+#hightlight-3.showHighlight {
+  background-position: left bottom;
 }
 
 .work-img {
