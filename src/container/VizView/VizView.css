@@ -1,4 +1,56 @@
+@import url("../VizView/Variables.css");
+
 .vizview {
-    /* min-height: 100%; */
-    position: relative;
+  /* min-height: 100%; */
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+}
+
+p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--dark-grey);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+button {
+  width: 200px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  line-height: var(--body-lg-line-height);
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: 2px solid var(--medium-light-grey);
+  border-radius: 4px;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: var(--hover-link-color);
 }

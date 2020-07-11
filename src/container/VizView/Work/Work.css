@@ -1,10 +1,15 @@
-@import url("../../../Variables.css");
+@import url("../Variables.css");
 
 .project h1,
 .project-reverse h1 {
   color: var(--dark-grey);
   font-size: var(--h2-font-size);
   font-weight: var(--h2-font-weight);
+}
+
+.project a:hover,
+.project-reverse a:hover {
+  text-decoration: none;
 }
 
 .section {
@@ -23,6 +28,7 @@
   padding: 0;
   width: 790px;
   height: 400px;
+  transition: transform 0.5s;
 }
 
 .proj-intro {
@@ -31,6 +37,23 @@
   position: absolute;
   top: 30%;
   right: 0;
+  transition: transform 0.5s;
+}
+
+.project:hover .proj-img {
+  transform: translateX(10px);
+}
+
+.proj-heading {
+  transition: transform 0.5s;
+}
+
+.project:hover .proj-heading {
+  transform: scale(1.05);
+}
+
+.project:hover .proj-intro {
+  transform: translateX(-10px);
 }
 
 .project-reverse {
@@ -46,6 +69,7 @@
   height: 400px;
   position: absolute;
   right: 0;
+  transition: transform 0.5s;
 }
 
 .proj-intro-reverse {
@@ -54,6 +78,19 @@
   left: 0;
   z-index: 999;
   top: 30%;
+  transition: transform 0.5s;
+}
+
+.proj-intro-reverse:hover .proj-heading {
+  transform: scale(1.05);
+}
+
+.project-reverse:hover .proj-intro-reverse {
+  transform: translateX(10px);
+}
+
+.project-reverse:hover .proj-img-reverse {
+  transform: translateX(-10px);
 }
 
 .project img,
