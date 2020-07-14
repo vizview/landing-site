@@ -36,7 +36,7 @@
 
 #mce-EMAIL {
   display: block;
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
   padding: 14px 24px 14px 24px;
   line-height: var(--body-lg-line-height);
