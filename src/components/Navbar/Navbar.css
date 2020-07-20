@@ -76,28 +76,27 @@
   .navbar-nav.web {
     display: none;
   }
-  .dropdown-item.active,.dropdown-item:active{
+  .dropdown-item.active,
+  .dropdown-item:active {
     background-color: none;
   }
+
   .navbar-nav.mobile {
     display: block;
   }
 
   .nav-dropdown.active {
     display: block;
-    
   }
 
   .nav-dropdown.inactive {
     display: none;
-
   }
 
   .nav-dropdown {
     text-align: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    
   }
 
   .dropdown-item {
