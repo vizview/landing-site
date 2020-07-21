@@ -1,0 +1,36 @@
+@import url("./Cereal_Variables.css");
+
+.cereal_project {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+}
+
+h2 {
+  font-size: var(--heading-lg-font-size);
+  line-height: var(--heading-lg-line-height);
+}
+
+h3 {
+  font-size: var(--heading-sm-font-size);
+  line-height: var(--heading-sm-line-height);
+}
+
+p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}

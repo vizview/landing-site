@@ -39,7 +39,7 @@ const about = () => {
             </p>
           </div>
         </div>
-        <div className="row justify-content-lg-end justify-content-md-start role-intro">
+        <div className="row justify-content-lg-end justify-content-md-start role-intro last">
           <img className="col-6 col-sm-4 col-lg-3 profile" src={red} />
           <div className="col-lg-6">
             <div className="name">

@@ -7,12 +7,12 @@ const work = () => {
     <div className="section">
       <div className="project">
         <div className="proj-img">
-          <a href="#">
+          <a href="/cereal">
             <img src={sample} />
           </a>
         </div>
         <div className="proj-intro">
-          <a href="#">
+          <a href="/cereal">
             <h1 className="proj-heading">What's in your cereal?</h1>
           </a>
           <p className="proj-desc">
