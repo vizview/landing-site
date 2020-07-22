@@ -3,14 +3,16 @@
 .cereal_project {
   background-color: var(--cereal-secondary-color);
   min-height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 .cereal_project h1,
 .cereal_project h2,
-.cereal_project h3 {
+.cereal_project h3,
+.cereal_project h4 {
   font-family: var(--cereal-heading-font-family);
   font-weight: var(--cereal-heading-font-weight);
-
   color: var(--cereal-primary-color);
 }
 
@@ -22,11 +24,6 @@
 .cereal_project h2 {
   font-size: var(--cereal-heading-lg-font-size);
   line-height: var(--cereal-heading-lg-line-height);
-}
-
-.cereal_project h3 {
-  font-size: var(--cereal-heading-sm-font-size);
-  line-height: var(--cereal-heading-sm-line-height);
 }
 
 .cereal_project p {
