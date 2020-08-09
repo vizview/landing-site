@@ -47,7 +47,7 @@ class SaleItem extends React.Component {
 
     return (
       <div className="row justify-content-between sale-item">
-        <div className="col-2 cur-cereal">
+        <div className="col-md-2 cur-cereal">
           <div className="rank-label">{curData.rank}</div>
           <img
             src={require(`../Data/img/${
@@ -55,7 +55,7 @@ class SaleItem extends React.Component {
             }.png`)}
           ></img>
         </div>
-        <div className="col-7">
+        <div className="col-md-7">
           <div className="sale-item-intro">
             <div className="rank">{curData.rank}</div>
             <div className="divider"></div>
@@ -71,7 +71,7 @@ class SaleItem extends React.Component {
           <p>{curData.desc}</p>
         </div>
         <div className="divider-rating"></div>
-        <div className="col-2">
+        <div className="col-md-2">
           <div className="rating">
             <div className="rating-num">{curData.rating}</div>
             <div className="star-group" aria-label="rating star">

@@ -1,5 +1,5 @@
 .other-cereals-container {
-  margin-top: 40px;
+  margin-top: 2vh;
 }
 
 .other-cereal-wrapper {
@@ -34,4 +34,11 @@
   border-radius: 0 0 100px 0;
   -moz-border-radius: 0 0 100px 0;
   -webkit-border-radius: 0 0 100px 0;
+}
+
+@media (max-width: 425px) {
+  .other-cereal {
+    max-width: 15vw;
+    height: auto;
+  }
 }

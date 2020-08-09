@@ -101,3 +101,13 @@
 .sale-item .author {
   color: var(--cereal-dark-gray);
 }
+
+@media (max-width: 456px) {
+  .divider-rating {
+    display: none;
+  }
+
+  .rating {
+    margin-top: 20px;
+  }
+}
