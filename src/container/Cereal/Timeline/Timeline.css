@@ -1,5 +1,14 @@
 @import url("../Cereal_Variables.css");
 
+.timeline-section {
+  max-height: 100vh;
+}
+
+.timeline-section .timeline-instruction {
+  color: var(--cereal-primary-color);
+  font-family: var(--cereal-body-font-family);
+}
+
 .timeline-graph h3 {
   font-size: var(--cereal-title-font-size);
 }
@@ -24,7 +33,7 @@
 .timeline-graph {
   position: relative;
   padding: 1em 0;
-  margin-top: 2em;
+
   margin-left: 2rem;
   margin-bottom: 3em;
   overflow-x: scroll;
@@ -71,7 +80,9 @@
 
   max-width: 90%;
   max-height: 405px;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateZ(-0.1px) scale(1.01) translateX(0%)
+    translateY(-2vh);
+  transition: 1s;
   transform-origin: center;
   margin-bottom: 20vw;
 }
@@ -83,8 +94,8 @@
 
 .bottom .timeline-content-container {
   position: relative;
-  left: -12vh;
-  margin-top: 15vw;
+  left: -16vh;
+  margin-top: 14vw;
 }
 
 .top .timeline-content-container {
@@ -123,4 +134,20 @@
 ::-webkit-scrollbar-button {
   width: 1px;
   height: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .bottom .timeline-content-container {
+    position: relative;
+    left: -5vh;
+    margin-top: 53vw;
+  }
+
+  .timeline-content-container {
+    max-width: 70%;
+  }
+
+  .top .year-container {
+    margin-top: 30vw;
+  }
 }

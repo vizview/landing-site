@@ -17,17 +17,25 @@
 }
 
 .cereal_project h1 {
+  width: 800px;
   font-size: var(--cereal-title-font-size);
   line-height: var(--cereal-title-line-height);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cereal_project h2 {
   font-size: var(--cereal-heading-lg-font-size);
   line-height: var(--cereal-heading-lg-line-height);
+  margin-bottom: 20px;
 }
 
 .cereal_project p {
   font-family: var(--cereal-body-font-family);
   font-size: var(--cereal-body-font-size);
   line-height: var(--cereal-body-line-height);
+}
+
+.cereal_project small {
+  font-family: var(--cereal-body-font-family);
 }

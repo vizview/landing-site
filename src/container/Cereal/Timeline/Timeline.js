@@ -26,9 +26,9 @@ const Timeline = () => {
     <section className="timeline-section">
       <h2>Cereal in History</h2>
       <p>
-        [History Placeholder ]Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco{" "}
+        Here’s a journey through the history of cereal with some fun facts you
+        may haven’t heard of yet.
+        <small className="timeline-instruction"> Scroll Down &darr; </small>
       </p>
       <div id="timeline" className="timeline-graph">
         <div className="timeline-item-container bottom">
@@ -106,7 +106,7 @@ const Timeline = () => {
             <h3 className="cereal-year">1928</h3>
           </div>
           <div className="spot"></div>
-          <div className="timeline-content-container">
+          <div className="timeline-content-container center-item">
             <img alt="General Mills logo" src={general} />
             <div className="timeline-content-text-wrapper">
               <h4>General Mills</h4>
@@ -173,7 +173,7 @@ const Timeline = () => {
             <h3 className="cereal-year">2000</h3>
           </div>
           <div className="spot"></div>
-          <div className="timeline-content-container">
+          <div className="timeline-content-container center-item">
             <img alt="Kashi logo" src={kashi} />
             <div className="timeline-content-text-wrapper">
               <h4>Kashi – Natural and Organic Products</h4>

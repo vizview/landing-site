@@ -1,0 +1,56 @@
+{
+  "honey_nut_cheerios": {
+    "rank": 1,
+    "heading": "A delicious and nutritious cereal (Cheerios honey nut) for a bargain price.",
+    "author": "Joseph J. Truncale",
+    "desc": "It is fresh and delicious when eating it with a cup of milk. If you like Cheerios cereal you may want to try the honey nut variation. It has the just amount of sweetness to make it a pleasure to eat.",
+    "rating": 4.8,
+    "numOfRating": 1720,
+    "dateOfRating": "July 4, 2020"
+  },
+  "frosted_flakes": {
+    "rank": 2,
+    "heading": "Oh how I love thee, Tony the Tiger",
+    "dateOfRating": "June 12, 2019",
+    "author": "Nicholas Bartolotta",
+    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "rating": 4.8,
+    "numOfRating": 1183
+  },
+  "lucky_charms": {
+    "rank": 3,
+    "heading": "Oh how I love thee, Tony the Tiger",
+    "dateOfRating": "June 12, 2019",
+    "author": "Nicholas Bartolotta",
+    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "rating": 4.8,
+    "numOfRating": 1183
+  },
+  "cinnamon_toast_crunch": {
+    "rank": 4,
+    "heading": "Oh how I love thee, Tony the Tiger",
+    "dateOfRating": "June 12, 2019",
+    "author": "Nicholas Bartolotta",
+    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "rating": 4.8,
+    "numOfRating": 1183
+  },
+  "special_k": {
+    "rank": 6,
+    "heading": "Oh how I love thee, Tony the Tiger",
+    "dateOfRating": "June 12, 2019",
+    "author": "Nicholas Bartolotta",
+    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "rating": 4.8,
+    "numOfRating": 1183
+  },
+  "raisin_bran": {
+    "rank": 7,
+    "heading": "Oh how I love thee, Tony the Tiger",
+    "dateOfRating": "June 12, 2019",
+    "author": "Nicholas Bartolotta",
+    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "rating": 4.8,
+    "numOfRating": 1183
+  }
+}

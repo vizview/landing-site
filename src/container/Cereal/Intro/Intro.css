@@ -1,0 +1,20 @@
+@import url("../Cereal_Variables.css");
+
+.cereal-intro-section {
+  height: 100vh;
+}
+
+.cereal-intro-p {
+  width: 384px;
+}
+
+.cereal-intro-section .breadcrumb {
+  padding-top: 18px;
+  background-color: transparent;
+  font-family: var(--cereal-body-font-family);
+}
+
+.cereal-intro-section .breadcrumb-item.active,
+.breadcrumb-item + .breadcrumb-item::before {
+  color: black;
+}

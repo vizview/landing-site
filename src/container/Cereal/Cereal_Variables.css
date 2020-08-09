@@ -2,6 +2,8 @@
   /* Colors */
   --cereal-primary-color: #e4493a;
   --cereal-secondary-color: #fbefda;
+  --cereal-gray: #c4c4c4;
+  --cereal-dark-gray: #707070;
 
   /* font */
   --cereal-heading-font-family: "Philosopher", sans-serif;
