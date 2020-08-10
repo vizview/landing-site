@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
-import red from "./images/red.png";
-import LinkedInIcon from "./images/linkedin.svg";
+import red from "../img/team/alice_1.png";
+import LinkedInIcon from "../img/icons/linkedin.svg";
+import PersonInfo from "./PersonInfo.js";
 
 const about = () => {
   return (
@@ -19,45 +20,11 @@ const about = () => {
       </section>
 
       <section className="team">
-        <div className="row role-intro justify-content-start">
-          <img className="col-6 col-sm-4 col-lg-3 profile" src={red} />
-          <div className="col-lg-6">
-            <div className="name">
-              <h2 className="secondary-h2">
-                Alice Li <span>| UX Designer</span>
-              </h2>
-              <a className="icon" href="#">
-                <img src={LinkedInIcon} />
-              </a>
-            </div>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-            </p>
-          </div>
-        </div>
-        <div className="row justify-content-lg-end justify-content-md-start role-intro last">
-          <img className="col-6 col-sm-4 col-lg-3 profile" src={red} />
-          <div className="col-lg-6">
-            <div className="name">
-              <h2 className="secondary-h2">
-                Alice Li <span>| UX Designer</span>
-              </h2>
-              <a className="icon" href="#">
-                <img src={LinkedInIcon} />
-              </a>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex Lorem ipsum dolor sit amet, consectetur
-            </p>
-          </div>
-        </div>
+        <PersonInfo name="alice" justify="start" />
+        <PersonInfo name="alice" justify="end" />
+        <PersonInfo name="alice" justify="start" />
+        <PersonInfo name="alice" justify="end" />
+        <PersonInfo name="alice" justify="start" />
       </section>
     </div>
   );
