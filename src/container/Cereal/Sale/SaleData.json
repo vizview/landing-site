@@ -19,38 +19,47 @@
   },
   "lucky_charms": {
     "rank": 3,
-    "heading": "Oh how I love thee, Tony the Tiger",
-    "dateOfRating": "June 12, 2019",
-    "author": "Nicholas Bartolotta",
-    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "heading": "Yum",
+    "dateOfRating": "May 21, 2020",
+    "author": "Vicki Andrew",
+    "desc": "A real comfort food",
     "rating": 4.8,
-    "numOfRating": 1183
+    "numOfRating": 135
   },
   "cinnamon_toast_crunch": {
     "rank": 4,
     "heading": "Oh how I love thee, Tony the Tiger",
-    "dateOfRating": "June 12, 2019",
-    "author": "Nicholas Bartolotta",
-    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
+    "dateOfRating": "June 3, 2019",
+    "author": "Jackie Lee Tinnell Jr",
+    "desc": "I love anything with cinnamon normally and these are the best ever! Great flavor and great cinnamon taste!",
     "rating": 4.8,
-    "numOfRating": 1183
+    "numOfRating": 1348
+  },
+  "froot_loops": {
+    "rank": 5.0,
+    "heading": "Love Froot Loops",
+    "dateOfRating": "November 10, 2018",
+    "author": "Junellen",
+    "desc": "I loved them as a child and still love them as an adult.",
+    "rating": 4.7,
+    "numOfRating": 701
   },
   "special_k": {
     "rank": 6,
-    "heading": "Oh how I love thee, Tony the Tiger",
-    "dateOfRating": "June 12, 2019",
-    "author": "Nicholas Bartolotta",
-    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
-    "rating": 4.8,
-    "numOfRating": 1183
+    "heading": "Special K = Riboflavin +++",
+    "dateOfRating": "January 19, 2020",
+    "author": "B C",
+    "desc": "Special k is awesome. Good ingredients, good cereal, my kids eat it everyday. For years we have had a hard time getting our kids 100% of their daily recommended Riboflavin. In just one bowl of Special K there is 20% of their daily intake. What other cereal offer that?? My husband and I are very happy with the decision to buy special k. Riboflavin may not seem important, but has been proven that kids with a riboflavin deficiency do not do as well in school, and are more prone to substance abuse. Thank you Kellogg’s and that you special k for making a quality product.",
+    "rating": 4.7,
+    "numOfRating": 373
   },
   "raisin_bran": {
     "rank": 7,
-    "heading": "Oh how I love thee, Tony the Tiger",
-    "dateOfRating": "June 12, 2019",
-    "author": "Nicholas Bartolotta",
-    "desc": "I've been eating these sugary corn flakes for 35+ years! Even though the boxes get smaller, they still pack a wholesome sugary kick and remind me of times of yesteryears when I used to eat them all the time...lunch, dinner, midnight snack. Ahh, those were the days. But hey, I'm an adult now. I can eat these whenever I want, STILL, and THEY'RE GR-R-REAT!",
-    "rating": 4.8,
-    "numOfRating": 1183
+    "heading": "Yummy cereal",
+    "dateOfRating": "July 14, 2020",
+    "author": "RACER",
+    "desc": "These are so fresh and flavorful. Not only for breakfast-i found a muffin receipe using raisin bran. It is called six-week muffins. Makes a huge bowl of muffin mix. You can either make the muffins or leave in the bowl (refridgerated) and use as needed. Was a big hit in my family and neighborhood. Ready to make a second batch.",
+    "rating": 5.0,
+    "numOfRating": 708
   }
 }

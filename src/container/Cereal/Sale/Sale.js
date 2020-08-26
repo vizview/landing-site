@@ -44,7 +44,7 @@ class Sale extends React.Component {
         <h2>Best Selling Cereals</h2>
         <div className="container">
           <SaleItem name={cur}></SaleItem>
-          <div className="row justify-content-between other-cereals-container">
+          <div className="row justify-content-between other-cereals-container flex-nowrap">
             {this.renderOtherImages(this.state.curCereal)}
           </div>
         </div>
