@@ -29,10 +29,10 @@ class SaleItem extends React.Component {
 
     var stars = [];
     for (let i = 0; i < starNum; i++) {
-      stars.push(<span className="fa fa-star checked"></span>);
+      stars.push(<span className="fa fa-star checked" key={`checked- + ${i}`}></span>);
     }
     for (let j = 0; j < 5 - starNum; j++) {
-      stars.push(<span className="fa fa-star"></span>);
+      stars.push(<span className="fa fa-star" key={`star- + ${j}`}></span>);
     }
 
     return stars;

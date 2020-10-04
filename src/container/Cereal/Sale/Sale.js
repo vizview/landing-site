@@ -17,7 +17,7 @@ class Sale extends React.Component {
     var imgArr = [];
     for (let i = 0; i < otherCereals.length; i++) {
       imgArr.push(
-        <div className="other-cereal-wrapper">
+        <div className="other-cereal-wrapper" key={i}>
           <div className="rank-label">{SaleData[otherCereals[i]].rank}</div>
           <input
             className="other-cereal"

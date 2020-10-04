@@ -1,8 +1,24 @@
+@import url("../Cereal_Variables.css");
+
 .cereal-element img {
-    width: 100px;
-    margin: 10px;
+  width: 100px;
+  margin: 10px;
 }
 
 .row {
-    margin: 30px;
+  margin: 30px;
+}
+
+button, button:hover {
+  width: 48px;
+  height: 48px;
+  color: var(--cereal-dark-gray);
+  background-color: white;
+  border-radius: 50%;
+  border-color: transparent;
+}
+
+button:disabled {
+  background-color: var(--cereal-gray);
+  color: var(--cereal-dark-gray);
 }

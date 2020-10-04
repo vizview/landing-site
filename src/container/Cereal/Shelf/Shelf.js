@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import CerealRow from "./CerealRow";
 import Papa from 'papaparse';
+import getData from '../Data/DataController';
 import "./Shelf.css";
 
 const config = {
@@ -10,12 +11,10 @@ const config = {
 
 export default function Shelf () {
   const [data, setData] = useState({});
-  const csvData = require('../Data/cereals.csv');
 
   useEffect(() => {
-    getCsvData();
+    getData((result) => updateData(result));
   }, [data]);
-
 
   function updateData(result) {
     var categoriesData = {
@@ -41,17 +40,10 @@ export default function Shelf () {
     }
   };
 
-  function getCsvData() {
-    Papa.parse(csvData, {
-      header: true,
-      download: true,
-      skipEmptyLines: true,
-      complete: (result) => {updateData(result)}
-    })
-  }
 
   return (
     <div className="container">
+      <h2>Shelf</h2>
       {data.high && <CerealRow data={data.high} />} 
       {data.med && <CerealRow data={data.med} />} 
       {data.low && <CerealRow data={data.low} />} 

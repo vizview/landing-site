@@ -6,7 +6,7 @@ export default function CerealElement ({data}) {
     img = img.replace("%", '');
 
   return (
-    <div class="cereal-element">
+    <div className="cereal-element">
       {data && <img src={require(`../Data/img/${img}.png`)} alt={data.name} />}
       <div>{data.category} : {data.value}</div>
     </div>);
