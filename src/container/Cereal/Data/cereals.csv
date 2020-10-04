@@ -1,0 +1,60 @@
+display_name,name,mfr,type,calories,protein,fat,sodium,fiber,carbo,sugars,potass,vitamins,shelf,weight,cups,rating,img
+Golden Crisp,golden_crisp,P,C,100,2,0,45,0,11,15,40,25,1,1,0.88,35.252444,golden_crisp
+Smacks,smacks,K,C,110,2,1,70,1,9,15,40,25,2,1,0.75,31.230054,smacks
+Apple Jacks,apple_jacks,K,C,110,2,0,125,1,11,14,30,25,2,1,1,33.174094,apple_jacks
+Total Raisin Bran,total_raisin_bran,G,C,140,3,1,190,4,15,14,230,100,3,1.5,1,28.592785,total_raisin_bran
+Froot Loops,froot_loops,K,C,110,2,1,125,1,11,13,30,25,2,1,1,32.207582,froot_loops
+Mueslix,mueslix,K,C,160,3,2,150,3,17,13,160,25,3,1.5,0.67,30.313351,mueslix
+Cocoa Puffs,cocoa_puffs,G,C,110,1,1,180,0,12,13,55,25,2,1,1,22.736446,cocoa_puffs
+Count Chocula,count_chocula,G,C,110,1,1,180,0,12,13,65,25,2,1,1,22.396513,count_chocula
+Cap'n'Crunch,cap_n_crunch,Q,C,120,1,2,220,0,12,12,35,25,2,1,0.75,18.042851,cap_n_crunch
+Fruity Pebbles,fruity_pebbles,P,C,110,1,1,135,0,13,12,25,25,2,1,0.75,28.025765,fruity_pebbles
+Corn Pops,corn_pops,K,C,110,1,0,90,1,13,12,20,25,2,1,1,35.782791,corn_pops
+Raisin Bran,raisin_bran,K,C,120,3,1,210,5,14,12,240,25,2,1.33,0.75,39.259197,raisin_bran
+Lucky Charms,lucky_charms,G,C,110,2,1,180,0,12,12,55,25,2,1,1,26.734515,lucky_charms
+Trix,trix,G,C,110,1,1,140,0,13,12,25,25,2,1,1,27.753301,trix
+Honey Graham Ohs,honey_graham_ohs,Q,C,120,1,2,220,1,12,11,45,25,2,1,1,21.871292,honey_graham_ohs
+Honey-comb,honey_comb,P,C,110,1,0,180,0,14,11,35,25,1,1,1.33,28.742414,honey_comb
+Frosted Flakes,frosted_flakes,K,C,110,1,0,200,1,14,11,25,25,1,1,0.75,31.435973,frosted_flakes
+Apple Cinnamon Cheerios,apple_cinnamon_cheerios,G,C,110,2,2,180,1.5,10.5,10,70,25,1,1,0.75,29.509541,apple_cinnamon_cheerios
+Honey Nut Cheerios,honey_nut_cheerios,G,C,110,3,1,250,1.5,11.5,10,90,25,1,1,0.75,31.072217,honey_nut_cheerios
+Oatmeal Raisin Crisp,oatmeal_raisin_crisp,G,C,130,3,2,170,1.5,13.5,10,120,25,3,1.25,0.5,30.450843,oatmeal_raisin_crisp
+Just Right Fruit & Nut,just_right_fruit_nut,K,C,140,3,1,170,2,20,9,95,100,3,1.3,0.75,36.471512,just_right_fruit_nut
+Nut&Honey Crunch,nut_honey_crunch,K,C,120,2,1,190,0,15,9,40,25,2,1,0.67,29.924285,nut_honey_crunch
+Cinnamon Toast Crunch,cinnamon_toast_crunch,G,C,120,1,3,210,0,13,9,45,25,2,1,0.75,19.823573,cinnamon_toast_crunch
+Golden Grahams,golden_grahams,G,C,110,1,1,280,0,15,9,45,25,2,1,0.75,23.804043,golden_grahams
+Basic 4,basic_4,G,C,130,3,2,210,2,18,8,100,25,3,1.33,0.75,37.038562,basic_4
+Raisin Nut Bran,raisin_nut_bran,G,C,100,3,2,140,2.5,10.5,8,140,25,3,1,0.5,39.7034,raisin_nut_bran
+Cracklin' Oat Bran,cracklin_oat_bran,K,C,110,3,3,140,4,10,7,160,25,3,1,0.5,40.448772,cracklin_oat_bran
+Frosted Mini-Wheats,frosted_mini_wheats,K,C,100,3,0,0,3,14,7,100,25,2,1,0.8,58.345141,frosted_mini_wheats
+Life,life,Q,C,100,4,2,150,2,12,6,95,25,2,1,0.67,45.328074,life
+Quaker Oat Squares,quaker_oat_squares,Q,C,100,4,1,135,2,14,6,110,25,3,1,0.5,49.511874,quaker_oat_squares
+100% Bran,100%_bran,N,C,70,4,1,130,10,5,6,280,25,3,1,0.33,68.402973,100%_bran
+Multi-Grain Cheerios,multi_grain_cheerios,G,C,100,2,1,220,2,15,6,90,25,1,1,1,40.105965,multi_grain_cheerios
+Bran Flakes,bran_flakes,P,C,90,3,0,210,5,13,5,190,25,3,1,0.67,53.313813,bran_flakes
+Grape Nuts Flakes,grape_nuts_flakes,P,C,100,3,1,140,3,15,5,85,25,3,1,0.88,52.076897,grape_nuts_flakes
+All-Bran,all_bran,K,C,70,4,1,260,9,7,5,320,25,3,1,0.33,59.425505,all_bran
+Great Grains Pecan,great_grains_pecan,P,C,120,3,3,75,3,13,4,100,25,3,1,0.33,45.811716,great_grains_pecan
+Corn Chex,corn_chex,R,C,110,2,0,280,0,22,3,25,25,1,1,1,41.445019,corn_chex
+Wheat Chex,wheat_chex,R,C,100,3,1,230,3,17,3,115,25,1,1,0.67,49.787445,wheat_chex
+Grape-Nuts,grape_nuts,P,C,110,3,0,170,3,17,3,90,25,3,1,0.25,53.371007,grape_nuts
+Crispix,crispix,K,C,110,2,0,220,1,21,3,30,25,3,1,1,46.895644,crispix
+Product 19,product_19,K,C,100,3,0,320,1,20,3,45,100,3,1,1,41.50354,product_19
+Rice Krispies,rice_krispies,K,C,110,2,0,290,0,22,3,35,25,1,1,1,40.560159,rice_krispies
+Special K,special_k,K,C,110,6,0,230,1,16,3,55,25,1,1,1,53.131324,special_k
+Kix,kix,G,C,110,2,1,260,0,21,3,40,25,2,1,1.5,39.241114,kix
+Total Corn Flakes,total_corn_flakes,G,C,110,2,1,200,0,21,3,35,100,3,1,1,38.839746,total_corn_flakes
+Total Whole Grain,total_whole_grain,G,C,100,3,1,200,3,16,3,110,100,3,1,1,46.658844,total_whole_grain
+Wheaties,wheaties,G,C,100,3,1,200,3,17,3,110,25,1,1,1,51.592193,wheaties
+Maypo,maypo,A,H,100,4,1,0,0,16,3,95,25,2,1,1,54.850917,maypo
+Rice Chex,rice_chex,R,C,110,1,0,240,0,23,2,30,25,1,1,1.13,41.998933,rice_chex
+Corn Flakes,corn_flakes,K,C,100,2,0,290,1,21,2,35,25,1,1,1,45.863324,corn_flakes
+Nutri-grain Wheat,nutri_grain_wheat,K,C,90,3,0,170,3,18,2,90,25,3,1,1,59.642837,nutri_grain_wheat
+Cheerios,cheerios,G,C,110,6,2,290,2,17,1,105,25,1,1,1.25,50.764999,cheerios
+Puffed Rice,puffed_rice,Q,C,50,1,0,0,0,13,0,15,0,3,0.5,1,60.756112,puffed_rice
+Puffed Wheat,puffed_wheat,Q,C,50,2,0,0,1,10,0,50,0,3,0.5,1,63.005645,puffed_wheat
+Cream of Wheat (Quick),cream_of_wheat,N,H,100,3,0,80,1,21,0,-1,0,2,1,1,64.533816,cream_of_wheat
+Shredded Wheat,shredded_wheat,N,C,80,2,0,0,3,16,0,95,0,1,0.83,1,68.235885,shredded_wheat
+Shredded Wheat 'n'Bran,shredded_wheat_n_bran,N,C,90,3,0,0,4,19,0,140,0,1,1,0.67,74.472949,shredded_wheat_n_bran
+Shredded Wheat spoon size,shredded_wheat_spoon_size,N,C,90,3,0,0,3,20,0,120,0,1,1,0.67,72.801787,shredded_wheat_spoon_size
+Quaker Oatmeal,quaker_oatmeal,Q,H,100,5,2,0,2.7,-1,-1,110,0,1,1,0.67,50.828392,quaker_oatmeal
