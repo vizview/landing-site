@@ -3,7 +3,7 @@ import CerealElement from "./CerealElement";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import "./Shelf.css";
 
-export default function CerealRow ({data}) {  
+export default function CerealRow ({data, category}) {  
   const [displayIndex, setDispalyIndex] = useState(0);
 
   function handlePrevious() {
@@ -20,7 +20,7 @@ export default function CerealRow ({data}) {
         <ChevronLeft color="grey" size={24} />
       </button>
       {data.slice(displayIndex, displayIndex + 6) && data.slice(displayIndex, displayIndex + 6).map((item) => (
-        <CerealElement data={item} key={item.img}></CerealElement>
+        <CerealElement data={item} category={category} key={item.img}></CerealElement>
       ))}
       <button className="align-self-center" disabled={displayIndex + 6 >= data.length} onClick={() => {handleNext()}}>
         <ChevronRight color="grey" size={24} />

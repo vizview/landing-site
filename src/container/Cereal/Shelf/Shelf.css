@@ -22,3 +22,7 @@ button:disabled {
   background-color: var(--cereal-gray);
   color: var(--cereal-dark-gray);
 }
+
+.input-group {
+  display: inline;
+}
