@@ -5,19 +5,6 @@ const Intro = () => {
   return (
     <section className="cereal-intro-section">
       <div>
-        <nav aria-label="breadcrumb">
-          <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-              <a href="/work">All Projects</a>
-            </li>
-
-            <li className="breadcrumb-item active" aria-current="page">
-              What’s in your Cereal?
-            </li>
-          </ol>
-        </nav>
-      </div>
-      <div>
         <h1 className="cereal-intro-h1">What’s in Your Cereal?</h1>
         <p className="cereal-intro-p">
           According to Statista.com, the U.S. consumes the most breakfast cereal

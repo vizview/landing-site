@@ -1,7 +1,8 @@
 @import url("../Cereal_Variables.css");
 
+
 .cereal-intro-section {
-  height: 100vh;
+  height: 80vh;
 }
 
 .cereal-intro-p {
@@ -17,4 +18,12 @@
 .cereal-intro-section .breadcrumb-item.active,
 .breadcrumb-item + .breadcrumb-item::before {
   color: black;
+}
+
+@media screen and (min-width: 992px) {
+  .cereal-intro-section {
+    background-image: url('../Data/img/background_img.png');
+    height: 100vh;
+    background-size: 100%;
+  }
 }

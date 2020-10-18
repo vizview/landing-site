@@ -40,3 +40,7 @@
   font-family: var(--cereal-body-font-family);
 }
 
+.cereal_project .breadcrumb {
+  background-color: var(--cereal-secondary-color);
+  margin-bottom: 0;
+}
