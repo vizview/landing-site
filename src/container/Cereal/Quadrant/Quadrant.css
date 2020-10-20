@@ -1,0 +1,11 @@
+@import url("../Cereal_Variables.css");
+
+
+.cereal-quadrant-section {
+  height: 100vh;
+}
+
+#tooltip {
+  height: 200px;
+  width: auto;
+}
