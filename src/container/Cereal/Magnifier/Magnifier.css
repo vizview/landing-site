@@ -1,0 +1,43 @@
+@import url("../Cereal_Variables.css");
+
+.cereal-magnifier-section h3 {
+	text-align: center;
+	font-family: var(--cereal-body-font-family);
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.cereal-magnifier-section h3 span {
+	color: #000000;
+}
+
+.cereal-magnifier-section .ant-select-selection-item {
+	color: var(--cereal-primary-color);
+	font-size: 28px;
+	/* background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-width: 2px;
+	border-color: var(--cereal-primary-color); */
+}
+
+.cereal-magnifier-section
+	.ant-select:not(.ant-select-customize-input)
+	.ant-select-selector {
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-width: 2px;
+	border-color: var(--cereal-primary-color);
+}
+.cereal-magnifier-section .ant-select-arrow svg {
+	fill: var(--cereal-primary-color);
+	stroke-width: 2px;
+}
+
+.cereal-magnifier-section .options {
+	/* background-color: #ef9c8a; */
+	/* color: green; */
+}

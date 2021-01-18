@@ -28,7 +28,7 @@ const cereal = () => {
       <Timeline />
       <Sale />
       <Magnifier />
-      <Quadrant data={[1,2,3]}/>
+      {/* <Quadrant data={[1,2,3]}/> */}
     </div>
   );
 };
