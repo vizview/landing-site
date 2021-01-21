@@ -3,7 +3,7 @@ import React, {
 } from 'react';
 import * as d3 from "d3";
 
-export default class xAxis extends Component {
+export default class XAxis extends Component {
     componentDidMount() {
         this.renderXAxis()
     }
@@ -11,10 +11,19 @@ export default class xAxis extends Component {
         this.renderXAxis()
     }
     renderXAxis() {
+        // console.log(this.props.xScale)
+        const xProps = d3.axisBottom(this.props.xScale).tickSizeOuter(0)
+        const axis = d3.select(this.axisElement).call(xProps)
+        axis.selectAll('.tick text').attr('font-size', 16).attr('fill', '#E4493A')
+        axis
+            .selectAll('.tick line')
+            .remove()
 
+        axis.select('.domain').attr('stroke', '#DFCBB6')
     }
 
     render() {
+
         return (<g
             className='cereal-quadrant-xAxis'
             ref={
@@ -22,9 +31,7 @@ export default class xAxis extends Component {
                     this.axisElement = el;
                 }
             }
-            transform={
-                this.props.translate
-            }
+            transform={this.props.transform}
         />
         )
     }

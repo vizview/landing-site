@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Select } from "antd"
+import { Select, Row, Col } from "antd"
 import "./Magnifier.css";
 import Quadrant from '../Quadrant/Quadrant'
 
@@ -58,8 +58,12 @@ const Magnifier = () => {
           ))}
         </Select>
       </h3>
+      <div className="container">
 
-      <Quadrant x={selectedOption2} y={selectedOption1} data={[1, 2, 3]} />
+        <Quadrant x={selectedOption1} y={selectedOption2} />
+
+      </div>
+
 
     </div>
   </section>)
