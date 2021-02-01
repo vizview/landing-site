@@ -601,7 +601,7 @@
     },
     {
       "display_name": "100% Bran",
-      "name": "100%_bran",
+      "name": "100_bran",
       "mfr": "N",
       "type": "C",
       "calories": 70,
@@ -617,7 +617,7 @@
       "weight": 1,
       "cups": 0.33,
       "rating": 68.402973,
-      "img": "100%_bran"
+      "img": "100_bran"
     },
     {
       "display_name": "Multi-Grain Cheerios",

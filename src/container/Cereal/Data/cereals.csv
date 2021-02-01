@@ -29,7 +29,7 @@ Cracklin' Oat Bran,cracklin_oat_bran,K,C,110,3,3,140,4,10,7,160,25,3,1,0.5,40.44
 Frosted Mini-Wheats,frosted_mini_wheats,K,C,100,3,0,0,3,14,7,100,25,2,1,0.8,58.345141,frosted_mini_wheats
 Life,life,Q,C,100,4,2,150,2,12,6,95,25,2,1,0.67,45.328074,life
 Quaker Oat Squares,quaker_oat_squares,Q,C,100,4,1,135,2,14,6,110,25,3,1,0.5,49.511874,quaker_oat_squares
-100% Bran,100%_bran,N,C,70,4,1,130,10,5,6,280,25,3,1,0.33,68.402973,100%_bran
+100% Bran,100_bran,N,C,70,4,1,130,10,5,6,280,25,3,1,0.33,68.402973,100%_bran
 Multi-Grain Cheerios,multi_grain_cheerios,G,C,100,2,1,220,2,15,6,90,25,1,1,1,40.105965,multi_grain_cheerios
 Bran Flakes,bran_flakes,P,C,90,3,0,210,5,13,5,190,25,3,1,0.67,53.313813,bran_flakes
 Grape Nuts Flakes,grape_nuts_flakes,P,C,100,3,1,140,3,15,5,85,25,3,1,0.88,52.076897,grape_nuts_flakes

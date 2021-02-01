@@ -14,8 +14,6 @@ import { takeRightWhile } from "lodash";
 
 
 
-
-
 class Quadrant extends Component {
   constructor(props) {
     super(props)
@@ -94,7 +92,8 @@ class Quadrant extends Component {
                 <g>
                   {dotsData.map((dot, i) => {
 
-                    return (<g>
+                    return (<g
+                      key={i}>
                       <circle r={this.state.hoveredDot == i ? dot.data.length + 5 : dot.data.length + 3}
                         cx={xScale(dot.xValue)}
                         cy={yScale(dot.yValue)}

@@ -88,6 +88,7 @@ export default class featured extends React.Component {
                       name="b_db541c297969feac61daf4a05_5135837c8c"
                       tabIndex="-1"
                       value=""
+                      onChange={()=>{}}
                     />
                   </div>
                   <div className="clear">

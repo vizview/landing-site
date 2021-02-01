@@ -1,5 +1,5 @@
 import React from "react";
-import Route from "react-router-dom/Route";
+import {Route} from "react-router-dom";
 import "./VizView.css";
 
 /* Components */
@@ -18,13 +18,13 @@ const vizview = () => {
       <header>
         <Navbar />
       </header>
-      <body>
+      <div>
         <Route path="/" exact strict component={Home} />
         <Route path="/work" exact strict component={Work} />
         <Route path="/about" exact strict component={About} />
         <Route path="/contact" exact strict component={Contact} />
         <Route path="/cereal" exact strict component={Cereal} />
-      </body>
+      </div>
 
       <Footer />
     </div>
