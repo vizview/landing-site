@@ -37,7 +37,7 @@ const Timeline = () => {
           </div>
           <div className="spot"></div>
           <div className="timeline-content-container">
-            <img alt="first cereal box image" src={first} />
+            <img alt="first cereal box" src={first} />
             <div className="timeline-content-text-wrapper">
               <h4>“Granula” – The Beginning of Breakfast Cereal</h4>
               <p>

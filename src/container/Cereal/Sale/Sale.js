@@ -13,7 +13,7 @@ class Sale extends React.Component {
   }
 
   renderOtherImages(curCereal) {
-    let otherCereals = cerealsArr.filter((el) => el != curCereal);
+    let otherCereals = cerealsArr.filter((el) => el !== curCereal);
     var imgArr = [];
     for (let i = 0; i < otherCereals.length; i++) {
       imgArr.push(
@@ -23,6 +23,7 @@ class Sale extends React.Component {
             className="other-cereal"
             key={otherCereals[i]}
             type="image"
+            alt={otherCereals[i]}
             src={require(`../Data/img/${otherCereals[i]}.png`)}
             onClick={(e) => this.selectCereal(otherCereals[i], e)}
           />

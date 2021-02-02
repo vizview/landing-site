@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, Component } from "react";
+import React, { Component } from "react";
 import * as d3 from "d3";
-import * as _ from "lodash"
 import dataSource from '../Data/cereals.json';
 import './Quadrant.css';
 import XAxis from "./XAxis"
@@ -8,10 +7,8 @@ import YAxis from "./YAxis"
 import ImagePlaceholder from './ImagePlaceholder'
 import DisplayShelf from './DisplayShelf'
 
-import { Row, Col, Skeleton, Space } from 'antd'
+import { Row, Col } from 'antd'
 import ResponsiveWrapper from "../ResponsiveWrapper/ResponsiveWrapper";
-import { takeRightWhile } from "lodash";
-
 
 
 class Quadrant extends Component {
@@ -73,9 +70,6 @@ class Quadrant extends Component {
 
     }
 
-    // console.log(dotsData)
-
-
     return (
       <section className="cereal-quadrant-section">
         <div className="container">
@@ -94,12 +88,12 @@ class Quadrant extends Component {
 
                     return (<g
                       key={i}>
-                      <circle r={this.state.hoveredDot == i ? dot.data.length + 5 : dot.data.length + 3}
+                      <circle r={this.state.hoveredDot === i ? dot.data.length + 5 : dot.data.length + 3}
                         cx={xScale(dot.xValue)}
                         cy={yScale(dot.yValue)}
                         fill={"#E4493A"}
                         stroke="#C3A483"
-                        strokeWidth={this.state.hoveredDot == i ? 2 : 0}
+                        strokeWidth={this.state.hoveredDot === i ? 2 : 0}
                         onMouseOver={(d) => { this.setState({ hoveredDot: i }) }}
                         onMouseOut={(d) => { this.setState({ hoveredDot: null }) }}
                         style={{ cursor: "pointer" }}
@@ -124,21 +118,18 @@ class Quadrant extends Component {
                       <p>Click on point on the graph to view the cereals</p>
                     </div>
 
-
                     <div style={{ zIndex: -10 }}>
                       <ImagePlaceholder />
                       <ImagePlaceholder />
                       <ImagePlaceholder />
                       <ImagePlaceholder />
                       <ImagePlaceholder />
-
-
                     </div>
 
 
                   </div>
-
                 )}
+
                 <div>
                   {this.state.clickedDot &&
                     (

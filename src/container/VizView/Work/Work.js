@@ -8,7 +8,7 @@ const work = () => {
       <div className="project">
         <div className="proj-img">
           <a href="/cereal">
-            <img src={sample} />
+            <img src={sample} alt='cereal project'/>
           </a>
         </div>
         <div className="proj-intro">

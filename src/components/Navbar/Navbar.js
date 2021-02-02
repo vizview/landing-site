@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import hamburger from "../../container/VizView/img/icons/hamburger.svg";
 import "./Navbar.css";
@@ -49,7 +49,7 @@ export default class navbar extends React.Component {
                 }`}
                 onClick={this.toggleDropdownState}
               >
-                <img src={hamburger} />
+                <img src={hamburger} alt='hamburger menu'/>
               </div>
             </div>
           </div>

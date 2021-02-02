@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Select, Row, Col } from "antd"
+import { Select } from "antd"
 import "./Magnifier.css";
 import Quadrant from '../Quadrant/Quadrant'
 
@@ -37,36 +37,33 @@ const Magnifier = () => {
     setSelectedOption2(value)
   }
 
-  // console.log(selectedOption1)
+  return (
+    <section className="cereal-magnifier-section pt-5">
+      <div>
+        <h2 className="cereal-magnifier-h1">Cereal Picker</h2>
+        <h3>
+          <span>Compare creals based on </span>
 
-  return (<section className="cereal-magnifier-section">
-    <div>
-      <h2 className="cereal-magnifier-h1">Cereal Picker</h2>
-      <h3>
-        <span>Compare creals based on </span>
+          <Select defaultValue={selectedOption1} onChange={handleOption1Change} dropdownClassName="options">
+            {options1.map(option => (
+              <Option value={option} key={option} disabled={option === selectedOption2} style={{ backgroundColor: selectedOption1 === option ? "#ef9c8a" : "transparent", fontWeight: 300 }} >{option}</Option>
+            ))}
+          </Select>
 
-        <Select defaultValue={selectedOption1} onChange={handleOption1Change} dropdownClassName="options">
-          {options1.map(option => (
-            <Option value={option} key={option} disabled={option === selectedOption2} style={{ backgroundColor: selectedOption1 === option ? "#ef9c8a" : "transparent", fontWeight: 300 }} >{option}</Option>
-          ))}
-        </Select>
+          <span> and </span>
+          <Select defaultValue={selectedOption2} onChange={handleOption2Change}>
+            {options2.map(option => (
+              <Option value={option} key={option} disabled={option === selectedOption1} style={{ backgroundColor: selectedOption2 === option ? "#ef9c8a" : "transparent", fontWeight: 300 }}>{option}</Option>
+            ))}
+          </Select>
+        </h3>
+        <div className="container">
 
-        <span> and </span>
-        <Select defaultValue={selectedOption2} onChange={handleOption2Change}>
-          {options2.map(option => (
-            <Option value={option} key={option} disabled={option === selectedOption1} style={{ backgroundColor: selectedOption2 === option ? "#ef9c8a" : "transparent", fontWeight: 300 }}>{option}</Option>
-          ))}
-        </Select>
-      </h3>
-      <div className="container">
+          <Quadrant x={selectedOption1} y={selectedOption2} />
 
-        <Quadrant x={selectedOption1} y={selectedOption2} />
-
+        </div>
       </div>
-
-
-    </div>
-  </section>)
+    </section>)
 };
 
 export default Magnifier;

@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const footer = () => {
@@ -15,9 +14,6 @@ const footer = () => {
           <span> | </span>
           <a href="/about">Contact</a>
         </div>
-
-
-
 
         <div className="copyright">
           <small>Copyright &copy; 2020 VizView - All Rights Reserved.</small>

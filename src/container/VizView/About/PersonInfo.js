@@ -6,7 +6,7 @@ import LinkedInIcon from "../img/icons/linkedin.svg";
 export default class PersonInfo extends React.Component {
   render() {
     var rowClass = "justify-content-start";
-    if (this.props.justify == "end") {
+    if (this.props.justify === "end") {
       rowClass = "justify-content-lg-end justify-content-md-start";
     }
     return (

@@ -3,10 +3,6 @@ import "./SaleItem.css";
 import saleData from "./SaleData.json";
 
 class SaleItem extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   nameFormatter(name) {
     let strArr = name.split("_");
     let capArr = strArr.map((i) => i[0].toUpperCase() + i.slice(1));
@@ -50,6 +46,7 @@ class SaleItem extends React.Component {
         <div className="col-md-2 cur-cereal">
           <div className="rank-label">{curData.rank}</div>
           <img
+            alt={this.props.name ? this.props.name : "honey_nut_cheerios"}
             src={require(`../Data/img/${
               this.props.name ? this.props.name : "honey_nut_cheerios"
             }.png`)}

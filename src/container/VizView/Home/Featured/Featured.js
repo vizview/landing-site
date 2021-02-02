@@ -16,7 +16,7 @@ export default class featured extends React.Component {
         <h2>Featured Projects</h2>
         <div className="projects-sum">
           <div className="project-intro">
-            <img src={cereal} />
+            <img src={cereal} alt='cereal background' />
             <h3>What’s in your cereal?</h3>
             <p>
               Come discover what is actually in your cereal. Play with cereal
@@ -24,7 +24,7 @@ export default class featured extends React.Component {
             </p>
           </div>
           <div className="project-intro">
-            <img src={cereal} />
+            <img src={cereal} alt='background' />
             <h3>What’s in your cereal?</h3>
             <p>
               Come discover what is actually in your cereal. Play with cereal

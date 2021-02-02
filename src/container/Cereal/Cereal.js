@@ -5,8 +5,6 @@ import Intro from "./Intro/Intro.js";
 import Timeline from "./Timeline/Timeline.js";
 import Sale from "./Sale/Sale.js";
 import Magnifier from "./Magnifier/Magnifier.js";
-import Shelf from "./Shelf/Shelf.js";
-import Quadrant from "./Quadrant/Quadrant.js";
 
 const cereal = () => {
   return (
@@ -28,7 +26,6 @@ const cereal = () => {
       <Timeline />
       <Sale />
       <Magnifier />
-      {/* <Quadrant data={[1,2,3]}/> */}
     </div>
   );
 };

@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-import red from "../img/team/alice_1.png";
-import LinkedInIcon from "../img/icons/linkedin.svg";
 import PersonInfo from "./PersonInfo.js";
 
 const about = () => {
