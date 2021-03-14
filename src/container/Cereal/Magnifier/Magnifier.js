@@ -38,7 +38,7 @@ const Magnifier = () => {
   }
 
   return (
-    <section className="cereal-magnifier-section pt-5">
+    <section className="cereal-magnifier-section">
       <div>
         <h2 className="cereal-magnifier-h1">Cereal Picker</h2>
         <h3>

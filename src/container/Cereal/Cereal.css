@@ -44,3 +44,8 @@
   background-color: var(--cereal-secondary-color);
   margin-bottom: 0;
 }
+
+.cereal-conclusion {
+  padding-top: 50px;
+  padding-bottom: 30vh;
+}

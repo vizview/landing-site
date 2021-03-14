@@ -1,5 +1,9 @@
 @import url("../Cereal_Variables.css");
 
+.cereal-magnifier-section {
+	margin-top: 20vh;
+}
+
 .cereal-magnifier-section h3 {
 	text-align: center;
 	font-family: var(--cereal-body-font-family);
@@ -22,7 +26,7 @@
 	border-color: var(--cereal-primary-color); */
 }
 
-.cereal-magnifier-section
+.cereal-magnifier-section 
 	.ant-select:not(.ant-select-customize-input)
 	.ant-select-selector {
 	background-color: transparent;
@@ -32,6 +36,7 @@
 	border-width: 2px;
 	border-color: var(--cereal-primary-color);
 }
+
 .cereal-magnifier-section .ant-select-arrow svg {
 	fill: var(--cereal-primary-color);
 	stroke-width: 2px;

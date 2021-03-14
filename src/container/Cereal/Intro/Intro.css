@@ -5,8 +5,13 @@
   height: 80vh;
 }
 
+.cereal-intro-text {
+  padding-top: 80px;
+}
+
 .cereal-intro-p {
-  width: 384px;
+  width: 600px;
+  margin-top: 20px;
 }
 
 .cereal-intro-section .breadcrumb {
