@@ -28,8 +28,8 @@ const work = () => {
           </a>
         </div>
         <div className="proj-intro-reverse">
-          <a href="#">
-            <h1 className="proj-heading">What's in your cereal?</h1>
+          <a href="/ghibli">
+            <h1 className="proj-heading">The Colors in Ghibli Posters</h1>
           </a>
           <p className="proj-desc">
             Come discover what is actually in your cereal. Play with cereal

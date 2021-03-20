@@ -11,6 +11,7 @@ import Work from "./Work/Work.js";
 import About from "./About/About.js";
 import Contact from "./Contact/Contact.js";
 import Cereal from "../Cereal/Cereal.js";
+import Ghibli from "../Ghibli/Ghibli";
 
 const vizview = () => {
   return (
@@ -24,6 +25,7 @@ const vizview = () => {
         <Route path="/about" exact strict component={About} />
         <Route path="/contact" exact strict component={Contact} />
         <Route path="/cereal" exact strict component={Cereal} />
+        <Route path="/ghibli" exact strict component={Ghibli} />
       </div>
 
       <Footer />
