@@ -11,7 +11,6 @@ export default class XAxis extends Component {
         this.renderXAxis()
     }
     renderXAxis() {
-        // console.log(this.props.xScale)
         const xProps = d3.axisBottom(this.props.xScale).tickSizeOuter(0)
         const axis = d3.select(this.axisElement).call(xProps)
         axis.selectAll('.tick text').attr('font-size', 16).attr('fill', '#E4493A')
@@ -24,15 +23,16 @@ export default class XAxis extends Component {
 
     render() {
 
-        return (<g
-            className='cereal-quadrant-xAxis'
-            ref={
-                el => {
-                    this.axisElement = el;
+        return (
+            <g
+                className='cereal-quadrant-xAxis'
+                ref={
+                    el => {
+                        this.axisElement = el;
+                    }
                 }
-            }
-            transform={this.props.transform}
-        />
+                transform={this.props.transform}
+            />
         )
     }
 }

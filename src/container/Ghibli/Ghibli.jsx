@@ -36,7 +36,6 @@ export default function Ghibli() {
       .attr('width', width / (sortByHue.length))
       .attr('height', 50)
       .attr('fill', function(d) { return d3.hsl(d[0], d[1], d[2])})
-      // .attr('opacity', 0);
   }
 
   useEffect(() => {
@@ -48,7 +47,7 @@ export default function Ghibli() {
       <Intro />
       <section>
         <div id='vis'>
-          </div>
+        </div>
       </section>
     </>
   );
@@ -61,6 +60,5 @@ function getAllColors(data) {
     const movie = data[i];
     allColors.push(...movie.colors);
   }
-  console.log(allColors);
   return allColors;
 }
