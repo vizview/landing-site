@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
 :root {
   /* Colors */
   --primary-color: #F24747;
@@ -10,11 +13,13 @@
 
   --title-font-size: 64px;
   --title-sm-font-style: italic;
+  --title-sm-font-size: 44px;
 
   --h1-font-size: 28px;
 
   --body-font-family: 'Asap', sans-serif;
   --body-lg-font-size: 20px;
+  --body-font-size: 14px;
 
   --hand-written-font: 'Reenie Beanie', cursive;
   --hand-written-lg-font-size: 72px;

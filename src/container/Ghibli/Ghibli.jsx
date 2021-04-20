@@ -43,13 +43,13 @@ export default function Ghibli() {
   })
 
   return(
-    <>
+    <div className='ghibli'>
       <Intro />
-      <section>
+      {/* <section>
         <div id='vis'>
         </div>
-      </section>
-    </>
+      </section> */}
+    </div >
   );
 }
 

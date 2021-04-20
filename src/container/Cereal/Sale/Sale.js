@@ -41,7 +41,7 @@ class Sale extends React.Component {
     this.renderOtherImages(this.state.curCereal);
     let cur = this.state.curCereal;
     return (
-      <section>
+      <section className='cereal-section'>
         <h2>Best Selling Cereals</h2>
         <div className="container">
           <SaleItem name={cur}></SaleItem>

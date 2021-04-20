@@ -5,6 +5,7 @@
   /* height: 80px; */
   font-family: var(--h2-font-family);
   z-index: 999;
+  background-color: white;
 }
 
 .navbar-light .navbar-brand {
