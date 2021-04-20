@@ -1,9 +1,5 @@
 @import url(./Variables.css);
 
-.text-handwritten {
-  font-style: var(--hand-written-font);
-
-}
 .ghibli p{
   font-style: var(--body-font-family);
   font-size: var(--body-font-size);
@@ -15,14 +11,18 @@
   background-image: url(./img/bg_img.png);
 }
 
-.ghibli h1 {
+.ghibli > h1 {
   font-family: var(--heading-font-family);
   font-size: var(--title-font-size);
 }
 
-.ghibli h1 > div {
+.ghibli > h1 > div {
   font-style: var(--title-sm-font-style);
   font-size: var(--title-sm-font-size);
+}
+
+.ghibli > .text-handwritten {
+  font-style: var(--hand-written-font);
 }
 
 .string-btn {

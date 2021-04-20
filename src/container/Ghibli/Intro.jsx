@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import ghibliMovies from './data/ghibli_movies_info.json';
 import './ghibli.css';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-
 
 export default function Intro() {
   const [imageIndex, setImageIndex] = useState(0);
@@ -23,7 +21,6 @@ export default function Intro() {
 
   function renderImages() {
     const curPosters = posterImages[imageIndex];
-    console.log(curPosters)
     const  posters = [];
       for(const item in curPosters) {
         const frameTop = Math.random() * (100 - 20) + 20;
