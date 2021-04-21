@@ -21,8 +21,10 @@
   font-size: var(--title-sm-font-size);
 }
 
-.ghibli > .text-handwritten {
-  font-style: var(--hand-written-font);
+.text-handwritten {
+  color: red;
+  font-family: var(--hand-written-font);
+  font-size: var(--hand-written-font-size);
 }
 
 .string-btn {
@@ -77,7 +79,7 @@
   .ghibli-poster {
     position: relative;
     width: 240px;
-    /* height: 530px; */
+    height: 453px;
     top: 0px;
     left: 5px;
     background-image: url('./img/frame.png');

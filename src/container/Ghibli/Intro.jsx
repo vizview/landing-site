@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import ghibliMovies from './data/ghibli_movies_info.json';
+import stringImg from './img/line.png';
+import {ReactComponent as Arrow} from './img/ghibli-arrow.svg';
 import './ghibli.css';
 
 export default function Intro() {
@@ -45,7 +47,11 @@ export default function Intro() {
         <div className='d-flex flex-row justify-content-center'> 
           {renderImages()}
         </div>
-        <button className='string-btn' onClick={() => onClickString()}><img src={require(`./img/line.png`)}></img></button>
+        <div classname='string-container'>
+          <button className='string-btn mb-0' onClick={() => onClickString()}><img src={stringImg}></img></button>
+          <Arrow />
+          <div className='text-handwritten'>Click</div>
+        </div>
       </div>
       <h1 className='text-center'>
         <div>The</div> Colors in Ghibli Posters
