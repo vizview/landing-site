@@ -11,12 +11,12 @@
   background-image: url(./img/bg_img.png);
 }
 
-.ghibli > h1 {
+.ghibli h1 {
   font-family: var(--heading-font-family);
   font-size: var(--title-font-size);
 }
 
-.ghibli > h1 > div {
+.ghibli h1 div {
   font-style: var(--title-sm-font-style);
   font-size: var(--title-sm-font-size);
 }
@@ -27,28 +27,55 @@
   font-size: var(--hand-written-font-size);
 }
 
-.string-btn {
-  position: relative;
-  background-color: transparent;
-  border: none;
-  top: 0;
-  transition: top ease 0.5s;
-}
-
-.string-btn:hover {
-  background-color: transparent;
-  top: 10px;
-}
-
 .ghibli-poster-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: relative;
+  margin-top: -230px;
+  min-height: 600px;
+
+  overflow: scroll;
+}
+
+.ghibli-poster > img {
+  position: absolute;
+  width: 123px;
+  left: 26px;
+  top: 241px;
+  z-index: 0;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+.ghibli-poster {
+  position: relative;
+  width: 180px;
+  height: 453px;
+  top: 0px;
+  background-image: url('./img/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+
+  animation: 7000ms ease-in-out 0s infinite alternate none running floating;
+  transform-origin: center bottom;
+  transition: transform 1s;
+}
+
+.string-container {
   display: none;
 }
 
-@media (min-width: 1024px)  {
+@media (min-width: 1440px)  {
   .ghibli h1 {
     font-family: var(--heading-font-family);
     font-size: var(--title-font-size);
-    margin-top: -200px;
   }
 
   .ghibli h1 > div {
@@ -56,51 +83,30 @@
     font-size: var(--title-sm-font-size);
   }
 
-  .ghibli-poster-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-
-    position: relative;
-    width: 80vw;
-    top: -180px;
-    min-height: 67vh;
-  }
-
-  .ghibli-poster > img {
+  .string-container {
+    display: block;
     position: absolute;
-    width: 123px;
-    left: 26px;
-    top: 241px;
-    z-index: 0;
+    right: 0px;
   }
 
-  @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }    
+  .string-btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+
+  .ghibli-poster-container {
+    min-height: 620px;
+  }
+
+  .string-btn:hover {
+    background-color: transparent;
+    top: 30px;
   }
 
   .ghibli-poster {
-    position: relative;
-    width: 240px;
-    height: 453px;
-    top: 0px;
-    left: 5px;
-    background-image: url('./img/frame.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0;
-
-    animation: 7000ms ease-in-out 0s infinite alternate none running floating;
-    transform-origin: center bottom;
-    transition: transform 1s;
-  }
-
-  .string-container {
-    position: absolute;
-    right: -100px;
+    width: 204px;
   }
 }

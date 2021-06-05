@@ -81,7 +81,7 @@ export default function Intro() {
       <h1 className='text-center'>
         <div>The</div> Colors in Ghibli Posters
       </h1>
-      <p className='col-lg-3'>
+      <p className='col-lg-4 col-md-6'>
         If you fall in love with one Studio Ghibli film, 
         then you must try out the other ones. As big fans of the films, 
         we have noticed that there might be some commonalities among them.

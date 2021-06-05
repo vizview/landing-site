@@ -22,9 +22,6 @@ class Quadrant extends Component {
   }
 
   render() {
-
-    console.log(this.state.clickedDot)
-
     const width = this.props.parentWidth * 16 / 24
     const height = width
 
