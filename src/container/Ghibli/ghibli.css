@@ -6,10 +6,14 @@
 }
 
 .ghibli > section {
-  min-height: 100vh;
   padding-bottom: 10px;
   background-image: url(./img/bg_img.png);
 }
+
+.ghibli >section:first-of-type {
+  height: 100vh ; 
+}
+
 
 .ghibli h1 {
   font-family: var(--heading-font-family);

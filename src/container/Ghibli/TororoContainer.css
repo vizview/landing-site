@@ -1,0 +1,18 @@
+.totoro-container {
+    margin:  auto;
+    justify-content: center;
+  
+}
+.totoro-text {
+    width: 590px;
+    padding: 32px 24px;
+    
+}
+
+.totoro-text h4 {
+    font-family: var(--heading-font-family);
+}
+
+.totoro-text p {
+    font-size: 20px;
+}
